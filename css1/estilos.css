@@ -1,0 +1,48 @@
+/* Variables */
+/* MAPA */
+.textos-texto1 {
+  font-size: 20px; }
+
+.textos-texto2 {
+  font-size: 15px; }
+
+.textos-texto3 {
+  font-size: 40px; }
+
+body {
+  font-family: 'Sansita Swashed', cursive; }
+
+.logo {
+  width: 100px;
+  height: 100px; }
+
+.torta1 {
+  width: 300px;
+  height: 300px; }
+
+.torta2, .torta2-nuevo {
+  width: 200px;
+  height: 200px; }
+
+.torta2-nuevo {
+  border: solid 4px #EAD7CB; }
+
+.mostrar {
+  display: none; }
+
+.link:hover {
+  font-size: 25px; }
+
+.link {
+  text-decoration: none; }
+
+.wsp {
+  width: 70px;
+  margin-bottom: 10px; }
+
+.pasteleria {
+  height: 400px;
+  width: 800px; }
+
+.ig {
+  width: 100px; }

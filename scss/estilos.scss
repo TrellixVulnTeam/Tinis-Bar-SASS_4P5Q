@@ -1,0 +1,63 @@
+/* Variables */
+$ancho: 100px;
+$largo: 100px;
+$ancho2: 50px;
+$largo2: 50px;
+$ocultar: true;
+
+/* MAPA */
+$redes:(texto1: 20px, texto2: 15px, texto3: 40px);
+@each $clave, $valor in $redes { 
+    .textos-#{$clave} {
+        font-size: $valor;
+    }
+}
+body { 
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.logo {
+    width: $ancho2*2;
+    height: $largo2*2;
+}
+
+.torta1 { 
+    width: $ancho*3;
+    height: $largo*3;
+}
+.torta2 { 
+    width: $ancho*2;
+    height: $largo*2;
+}
+.torta2-nuevo { 
+    @extend .torta2;
+    border: solid 4px #EAD7CB;
+}
+
+.mostrar {
+    @if $ocultar { 
+        display: none;
+    }
+}
+.link:hover { 
+font-size: 25px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.wsp { 
+    width: 70px;
+    margin-bottom: 10px;
+}
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+.pasteleria { 
+    @include sizes(800px, 400px)
+}
+.ig { 
+    width: 100px;
+}
