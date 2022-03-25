@@ -9,8 +9,20 @@
 .textos-texto3 {
   font-size: 40px; }
 
+/* .color-fondo { 
+    background-color: #E0CECE;
+} */
+.color-fondo-2 {
+  background-color: #ADA0A0; }
+
+.tamano {
+  font-size: 10px; }
+
 body {
   font-family: 'Sansita Swashed', cursive; }
+
+.margen-boton {
+  padding-bottom: 100px; }
 
 .logo {
   width: 100px;
@@ -37,12 +49,13 @@ body {
   text-decoration: none; }
 
 .wsp {
-  width: 70px;
-  margin-bottom: 10px; }
+  width: 46px;
+  padding-top: 2px; }
 
 .pasteleria {
   height: 400px;
   width: 800px; }
 
 .ig {
-  width: 100px; }
+  width: 70px;
+  padding-top: 5px; }
