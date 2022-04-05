@@ -13,7 +13,10 @@
     background-color: #E0CECE;
 } */
 .color-fondo-2 {
-  background-color: #ADA0A0; }
+  background-color: #D6C4B8; }
+
+.fondo-3 {
+  background-color: #F2E6D8; }
 
 .tamano {
   font-size: 10px; }
@@ -25,8 +28,8 @@ body {
   padding-bottom: 100px; }
 
 .logo {
-  width: 100px;
-  height: 100px; }
+  width: 200px;
+  height: 200px; }
 
 .torta1 {
   width: 300px;
@@ -53,8 +56,8 @@ body {
   padding-top: 2px; }
 
 .pasteleria {
-  height: 400px;
-  width: 800px; }
+  height: 300px;
+  width: 600px; }
 
 .ig {
   width: 70px;
